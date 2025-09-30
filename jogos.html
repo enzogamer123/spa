@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meus Álbuns Favoritos</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #121212;
+      color: #eee;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .album-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .album-card {
+      background: #1e1e1e;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.7);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .album-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 15px rgba(255, 255, 255, 0.2);
+    }
+
+    .album-cover {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+      height: 180px;
+    }
+
+    .album-info {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .album-title {
+      font-weight: bold;
+      font-size: 1.1em;
+      margin: 0 0 5px;
+    }
+
+    .album-artist {
+      font-size: 0.9em;
+      color: #bbb;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Meus jogos Favoritos</h1>
+  <div class="jogos-grid">
+    <div class="jogos-card">
+      <img src="./images/Grand_Theft_Auto_V_capa.png" alt="Jogo 1" />
+      <div class="jogos-info">
+        <p class="jogos-title">Grand thelf Auto</p>
+        <p class="jogos-version">5</p>
+      </div>
+    </div>
+
+    <div class="jogos-card">
+      <img src="./images/need-for-speed-heat-logo.avif" alt="Jogo 2" class="games" />
+      <div class="jogos-info">
+        <p class="jogos-title">Need for Speed</p>
+        <p class="jogos-version">Heat</p>
+      </div>
+    </div>
+
+    <div class="jogos-card">
+      <img src="./images/maxresdefault.jpg" alt="Jogo 3" class="games" />
+      <div class="jogos-info">
+        <p class="jogos-title">F1</p>
+        <p class="jogos-version">2025</p>
+      </div>
+    </div>
+
+    <div class="jogos-card">
+      <img src="./images/Call_of_Duty_Black_Ops_6.png" alt="Jogo 4" class="games" />
+      <div class="jogos-info">
+        <p class="jogos-title">Call of Duty</p>
+        <p class="jogos-version">Black Ops 6 </p>
+      </div>
+    </div>
+
+    <div class="jogos-card">
+      <img src="./images1/album 5.jpg" alt="Jogo 5" class="games" />
+      <div class="jogos-info">
+        <p class="jogos-title">SZA</p>
+        <p class="jogos-version">SOS</p>
+      </div>
+    </div>
+
+    <div class="jogos-card">
+      <img src="./images1/album 6.jpg" alt="Jogo 6" class="games" />
+      <div class="jogos-info">
+        <p class="jogos-title">Soarito </p>
+        <p class="jogos-version">Caixa Azul </p>
+      </div>
+    </div>
+
+        <div class="jogos-card">
+      <img src="./images1/1900x1900-000000-80-0-0.jpg" alt="Jogo 7" class="games" />
+      <div class="jogos-info">
+        <p class="jogos-title">Charlie Brown </p>
+        <p class="jogos-version">La Familia 013 </p>
+      </div>
+    </div>
+
+    <div class="jogos-card">
+      <img src="./images1/album 7.jpg" alt="Jogo 8" class="games" />
+      <div class="jogos-info">
+        <p class="jogos-title">C4 Pedro</p>
+        <p class="jogos-version">King Ckwa</p>
+      </div>
+    </div>
+
+   <div class="jogos-card">
+      <img src="./images1/albun8.jpg" alt="Jogo 9" class="games" />
+      <div class="jogos-info">
+        <p class="jogos-title">Matheus e Kaua </p>
+        <p class="jogos-version">Nossa Praia</p>
+      </div>
+    </div>
+
+   <div class="jogos-card">
+      <img src="./images/god-of-war-3-wallpaper-u138nlh3irkmsdcm.jpg" alt="Jogo 10" class="games" />
+      <div class="jogos-info">
+        <p class="jogos-title">God of War</p>
+        <p class="jogos-version">III</p>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
