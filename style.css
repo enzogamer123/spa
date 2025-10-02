@@ -53,8 +53,8 @@ header {
   overflow: hidden;
   margin: 20px auto;
   width: 90%;
-  max-width: 800px;
-  height: 400px;
+  max-width: 1000px;
+  height: 100px;
 }
 
 .slides {
@@ -71,7 +71,7 @@ header {
 .slide img {
   width: 100%;
   height: 400px;
-  object-fit: cover;
+  object-fit: cover; /* padrão atual */
 }
 
 .banner-controls {
